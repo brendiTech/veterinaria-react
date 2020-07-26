@@ -63,7 +63,7 @@ class App extends Component {
           <div className="col-md-6">
             <ListaCitas
               citas={this.state.citas}
-              borrarCita={this.props.borrarCita}
+              borrarCita={this.borrarCita}
             />
           </div>
         </div>
